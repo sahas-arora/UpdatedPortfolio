@@ -1,0 +1,15 @@
+.chart {
+
+    border: 1px solid red;
+    height: 500px;
+    width: 800px;
+}
+
+@media only screen and (max-width: 768px) {
+    .chart {
+        height: 200px;
+        width: 400px;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    height: 5rem;
+    background: #181818;
+
+}
+
+.footer-icon-dimen {
+    align-self: center;
+}
+
+
+
+@media only screen and (min-width: 769px) {
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,150 @@
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-left {
+    flex: 10 10 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.image-box {
+    border: 1px solid black;
+    width: 50%;
+    height: 540px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+
+    flex-wrap: wrap;
+    /* height: 150px; */
+    
+}
+
+.image-description-show{
+    color: red;
+    position: absolute;
+    width: 50%;
+    /* z-index: 100; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.blur {
+    /* z-index: 1; */
+    filter: blur(2px);
+    /* background: black; */
+    /* background-color: rgba(0, 0, 0, 0.24); */
+    
+    /* border: 1px solid red; */
+}
+
+.card {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 0.24);
+     */
+    /* width: 10%;
+    height: 10%; */
+    /* z-index: 2; */
+    border: 1px solid green;
+    color: red;
+    flex-wrap: wrap;
+
+    /* word-wrap: break-word; */
+    /* overflow: hidden; */
+}
+
+
+
+.description-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-descriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+  
+
+.project-description-sub-box {
+    flex: 4 4 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+  
+}
+
+.project-title {
+    font-size: 20px;
+    margin: 10px;
+    color: red;
+    /* color: red; */
+}
+
+.project-date {
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(22, 22, 22);
+
+}
+
+.project-description {
+    font-size: 18px;
+    margin: 10px;
+    color: rgb(22, 22, 22);
+    /* word-wrap: break-word; */
+    /* overflow: hidden; */
+    /* text-align: center; */
+}
+
+.project-technologies {
+    font-size: 16px;
+    margin: 10px;
+    color: rgb(22, 22, 22);
+}
+
+@media only screen and (max-width: 768px) {
+    .image-box {
+        border: 1px solid black;
+        width: 100%;
+        /* border-radius: 10px; */
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        /* height: 150px; */
+        /* margin-top: 10px; */
+    }
+    
+}
+
