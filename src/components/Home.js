@@ -71,8 +71,9 @@ export default class Home extends Component {
                 <div className="home-right">
                     <div className="home-big-logo">
                         <img 
+                        // style={{width: 300, height: 300}}
                         alt="Linda Logo"
-                        src={require("../helpers/Linda3DTake3.png")} />
+                        src={require("../helpers/new_s_logo.png")} />
                     </div>
                 </div>
 

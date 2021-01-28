@@ -52,9 +52,7 @@ export default class Chart extends Component {
 
     render() {
         return(
-            <div className="chart" 
-                style={{ height: "500px", width: "800px"}}
-                >
+            <div className="chart">
                 <Doughnut
                     data={this.state.chartData}
                     options={{

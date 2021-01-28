@@ -253,18 +253,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid green; */
 }
 
 .home-big-logo {
     /* border: 1px solid red; */
     /* background-size: contain,cover; */
     /* object-fit: cover; */
+
     align-self: center;
     animation: shimmy 3s linear infinite;
     animation-direction: alternate;
     /* transform: rotate(25deg); */
 }
+
+
 
 @keyframes shimmy {
     0% {

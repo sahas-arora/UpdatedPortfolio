@@ -87,7 +87,7 @@ export default class Navbar extends Component {
                         <img 
                         alt=""
                         className="nav-image" 
-                        src={require("../helpers/LindaLogoTake2.png")} />
+                        src={require("../helpers/SA1.png")} />
                     </div>    
                 </div>
 
