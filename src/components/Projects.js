@@ -11,7 +11,8 @@ export default class Projects extends Component {
 
         this.state = {
             projects: projects,
-            blurBackground: false
+            blurBackground: false,
+            showProjectCard: false
         };
 
 
@@ -31,6 +32,7 @@ export default class Projects extends Component {
             let imageBox = this.state.projects[key].showDetails ? "project-image blur" : "project-image";
                 return(
                 <div className="image-box"
+                
                     // id={this.state.projects[key].id}
                     // key={this.state.projects[key].id}
                 >
@@ -48,9 +50,14 @@ export default class Projects extends Component {
                     }
                     style={{maxWidth: "100%", backgroundImage: `url("/images/${projects[key].image}")`}}>
                     </div>
-                    <div className="projectCard-container">
+                    <div 
+                    className="projectCard-container"
+                    >
                         {this.state.projects[key].showDetails ? 
-                        <div className="yoo">
+                        <div 
+                            className="projectCard"
+
+                        >
                             {this.renderCard(key)}
                         </div>  
                         :
@@ -107,9 +114,6 @@ export default class Projects extends Component {
     render() {
         return(
             <div className="projects">
-            {this.state.showProjectCard ?
-                console.log("Yo")
-                : null}
                 <div className="projects-left">
                     {this.renderImages()}
                 </div>
