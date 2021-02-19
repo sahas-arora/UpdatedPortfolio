@@ -31,8 +31,8 @@ export default class Projects extends Component {
             let imageBox = this.state.projects[key].showDetails ? "project-image blur" : "project-image";
                 return(
                 <div className="image-box"
-                    id={this.state.projects[key].id}
-                    key={this.state.projects[key].id}
+                    // id={this.state.projects[key].id}
+                    // key={this.state.projects[key].id}
                 >
                     <div 
                     id={this.state.projects[key].id}
@@ -48,9 +48,18 @@ export default class Projects extends Component {
                     }
                     style={{maxWidth: "100%", backgroundImage: `url("/images/${projects[key].image}")`}}>
                     </div>
-                    <div>
-                        { this.state.projects[key].showDetails && this.renderCard(key)} 
+                    <div className="projectCard-container">
+                        {this.state.projects[key].showDetails ? 
+                        <div className="yoo">
+                            {this.renderCard(key)}
+                        </div>  
+                        :
+                        null  
+                    }
                     </div>
+                    {/* <div>
+                        {this.state.projects[key].showDetails && this.renderCard(key)} 
+                    </div> */}
                 </div>
             )
         })
@@ -69,7 +78,7 @@ export default class Projects extends Component {
     renderCard(key) {
             return(
                 <div 
-                className="card"
+                // className="card"
                 key={this.state.projects[key].id}
                 // style={{border: "1px solid red"}}
                 onClick={() => this.handleSelectedCard(key)}
@@ -98,6 +107,9 @@ export default class Projects extends Component {
     render() {
         return(
             <div className="projects">
+            {this.state.showProjectCard ?
+                console.log("Yo")
+                : null}
                 <div className="projects-left">
                     {this.renderImages()}
                 </div>

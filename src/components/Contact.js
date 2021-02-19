@@ -35,7 +35,8 @@ export default class Contact extends Component {
                     </div>
 
                     <div className="contact-form-description">
-                    Choosing me means you’re backed by a talented crew of Certified Shorthand Reporters, Videographers, and staff who will deliver impeccable customer service.
+                    I'm currently looking for internships and part-time work opportunities. If you liked what you saw here,
+                    contact me using the form below. You could also just say hi :) Looking forward to hearing from you!
                     </div>
 
                     <form 

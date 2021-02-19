@@ -36,9 +36,9 @@ export default class Skills extends Component {
                     </div>
 
                     <ul className="skills-description">
-                        <li className="line-desc">The main area of my expertise lies in Graphic Design and Data Science</li>
-                        <li className="line-desc">HTML, CSS, building small and medium web applications with React, custom plugins, features, animations and coding interactive layouts. </li>
-                        <li className="line-desc">I also have experience in ...</li>
+                        <li className="line-desc">The main area of my expertise lies in Web Development and Application Developmet</li>
+                        <li className="line-desc">HTML, CSS, building small and medium web applications with React, custom plugins, features, animations and coding interactive and responsive layouts. </li>
+                        <li className="line-desc">I also have experience in prototyping tools such as Figma and Mural</li>
                         <li className="line-desc">Visit my LinkedIn profile for more details, or just contact me here!</li>
                     </ul>
 
