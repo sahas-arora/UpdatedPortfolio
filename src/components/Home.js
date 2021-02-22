@@ -57,7 +57,7 @@ export default class Home extends Component {
 
                         
                         <button className="my-button">
-                                <a href={require("../helpers/Sahas_Resume _Final Version.docx")}>
+                                <a href={require("../helpers/CV_Dan_Sahas_Vol_2.pdf")}>
                                     <span></span>
                                     <span></span>
                                     <span></span>

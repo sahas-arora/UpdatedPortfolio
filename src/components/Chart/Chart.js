@@ -10,12 +10,12 @@ export default class Chart extends Component {
         
         this.state = {
             chartData: {
-                labels: ["Javascript", "C++", "ReactJS", "NodeJS", "ExpressJS", "MongoDB", "MySQL", "HTML", "CSS"],
+                labels: ["Javascript","ReactJS", "React-Native", "HTML", "CSS", "NodeJS", "ExpressJS", "MongoDB", "MySQL"],
                 datasets: [
                     {
                         label: "Skills",
-                        data: [20, 15, 25, 10, 5, 5, 5, 5, 5, 5],
-                        backgroundColor: ["#49A9EA", "#36CAAB"],
+                        data: [20, 30, 15, 15, 5, 5, 5, 2.5, 2.5],
+                        backgroundColor: ["#49A9EA", "#36CAAB", "#fc6444", "#fb806f", "#2464b4", "#9b63a4", "#9c7eb8", "#4c344c", "#4c344c"],
                         borderWidth: 0.5,
                         borderColor: "#777",
                         hoverBorderWidth: 2,
