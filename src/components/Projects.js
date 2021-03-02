@@ -87,7 +87,6 @@ export default class Projects extends Component {
                 <div 
                 // className="card"
                 key={this.state.projects[key].id}
-                // style={{border: "1px solid red"}}
                 onClick={() => this.handleSelectedCard(key)}
                 >
                     <div className="project-title">

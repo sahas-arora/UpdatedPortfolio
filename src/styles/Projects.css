@@ -16,18 +16,11 @@
 .image-box {
     border: 1px solid black;
     width: 50%;
-    /* height: 540px; */
-    /* width:100px;
-    height: 100px; */
-
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
-
     flex-wrap: wrap;
-    /* height: 150px; */
     
 }
 
@@ -35,20 +28,16 @@
     color: red;
     position: absolute;
     width: 50%;
-    /* z-index: 100; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    /* overflow: hidden; */
     flex-wrap: wrap;
-    /* border: 1px solid red; */
 }
 
 .project-image {
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
     cursor: pointer;
     background-size: cover;
     background-position: center;
@@ -57,32 +46,18 @@
 }
 
 .blur {
-    /* z-index: 1; */
     filter: blur(2px);
-    /* background: black; */
-    /* background-color: rgba(0, 0, 0, 0.24); */
-    
-    /* border: 1px solid red; */
 }
 
 .card {
-    /* border: 1px solid red; */
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    /* background-color: rgba(0, 0, 0, 0.24);
-     */
-    /* width: 10%;
-    height: 10%; */
-    /* z-index: 2; */
     border: 1px solid green;
     color: red;
     flex-wrap: wrap;
-
-    /* word-wrap: break-word; */
-    /* overflow: hidden; */
 }
 
 
@@ -114,7 +89,6 @@
     font-size: 20px;
     margin: 10px;
     color: #08fdd8;
-    /* color: red; */
 }
 
 .project-date {
@@ -129,9 +103,6 @@
     font-size: 18px;
     margin: 10px;
     color: #08fdd8;
-    /* word-wrap: break-word; */
-    /* overflow: hidden; */
-    /* text-align: center; */
 }
 
 .project-technologies {
@@ -158,9 +129,6 @@
     color: #08fdd8;
     border-radius: 4px;
 
-}
-
-.yoo{
 }
 
 @media only screen and (max-width: 768px) {
